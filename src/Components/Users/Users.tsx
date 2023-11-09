@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 import UserItem from "./UserItem";
 import { User } from "../../types";
 
 interface Props {
-    users: User[];
+  users: User[];
 }
 
-const Users:React.FC<Props> = ({users}) => {
+const Users: React.FC<Props> = ({ users }) => {
   return (
     <>
       <h4>Users</h4>

@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 import { User } from "../../types";
 
 interface Props {
-    user: User;
+  user: User;
 }
 
-const UserItem:React.FC<Props> = ({user}) => {
+const UserItem: React.FC<Props> = ({ user }) => {
   return (
     <div className="card mt-3">
       <div className="card-body">
